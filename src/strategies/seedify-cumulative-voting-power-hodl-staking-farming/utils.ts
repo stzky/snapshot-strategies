@@ -12,7 +12,7 @@ export const bep20Abi = [
 ];
 
 export const getStakingBalanceOf = (stakedBalances: any, userIndex: any) => {
-  let sum: number = 0;
+  let sum = 0;
   let balance: any;
   for (
     let stakingContractIndex = 0;
